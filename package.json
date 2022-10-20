@@ -37,7 +37,7 @@
     "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
-    "yeoman-generator": "~0.24.1",
+    "yeoman-generator": "~5.0.0",
     "colors": "~0.6.2",
     "lodash": "~2.4.1",
     "rimraf": "2.2.8",
