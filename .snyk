@@ -1,5 +1,7 @@
-version: v1.5.0
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
 ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
 patch:
   'npm:minimatch:20160620':
     - yeoman-generator > file-utils > minimatch:
@@ -8,3 +10,62 @@ patch:
         patched: '2016-10-13T01:57:17.502Z'
     - yeoman-generator > file-utils > glob > minimatch:
         patched: '2016-10-13T01:57:17.502Z'
+  SNYK-JS-LODASH-450202:
+    - snyk > snyk-go-plugin > graphlib > lodash:
+        patched: '2019-07-04T00:59:26.711Z'
+    - yeoman-generator > lodash:
+        patched: '2019-07-04T00:59:26.711Z'
+    - yeoman-generator > yeoman-test > lodash:
+        patched: '2019-07-04T00:59:26.711Z'
+    - snyk > @snyk/dep-graph > lodash:
+        patched: '2019-07-04T00:59:26.711Z'
+    - snyk > inquirer > lodash:
+        patched: '2019-07-04T00:59:26.711Z'
+    - yeoman-generator > yeoman-environment > lodash:
+        patched: '2019-07-04T00:59:26.711Z'
+    - yeoman-generator > gruntfile-editor > lodash:
+        patched: '2019-07-04T00:59:26.711Z'
+    - snyk > snyk-config > lodash:
+        patched: '2019-07-04T00:59:26.711Z'
+    - snyk > snyk-mvn-plugin > lodash:
+        patched: '2019-07-04T00:59:26.711Z'
+    - snyk > snyk-nodejs-lockfile-parser > lodash:
+        patched: '2019-07-04T00:59:26.711Z'
+    - snyk > snyk-nuget-plugin > lodash:
+        patched: '2019-07-04T00:59:26.711Z'
+    - yeoman-generator > async > lodash:
+        patched: '2019-07-04T00:59:26.711Z'
+    - yeoman-generator > yeoman-environment > inquirer > lodash:
+        patched: '2019-07-04T00:59:26.711Z'
+    - snyk > snyk-php-plugin > @snyk/composer-lockfile-parser > lodash:
+        patched: '2019-07-04T00:59:26.711Z'
+    - snyk > lodash:
+        patched: '2019-07-04T00:59:26.711Z'
+    - yeoman-generator > gruntfile-editor > ast-query > lodash:
+        patched: '2019-07-04T00:59:26.711Z'
+    - snyk > snyk-nodejs-lockfile-parser > graphlib > lodash:
+        patched: '2019-07-04T00:59:26.711Z'
+    - yeoman-generator > yeoman-environment > grouped-queue > lodash:
+        patched: '2019-07-04T00:59:26.711Z'
+    - yeoman-generator > yeoman-test > yeoman-generator > lodash:
+        patched: '2019-07-04T00:59:26.711Z'
+    - yeoman-generator > yeoman-test > yeoman-environment > lodash:
+        patched: '2019-07-04T00:59:26.711Z'
+    - yeoman-generator > yeoman-test > inquirer > lodash:
+        patched: '2019-07-04T00:59:26.711Z'
+    - snyk > @snyk/dep-graph > graphlib > lodash:
+        patched: '2019-07-04T00:59:26.711Z'
+    - yeoman-generator > yeoman-test > yeoman-generator > async > lodash:
+        patched: '2019-07-04T00:59:26.711Z'
+    - yeoman-generator > yeoman-test > yeoman-generator > yeoman-environment > lodash:
+        patched: '2019-07-04T00:59:26.711Z'
+    - yeoman-generator > yeoman-test > yeoman-environment > grouped-queue > lodash:
+        patched: '2019-07-04T00:59:26.711Z'
+    - yeoman-generator > yeoman-test > yeoman-environment > inquirer > lodash:
+        patched: '2019-07-04T00:59:26.711Z'
+    - yeoman-generator > yeoman-test > yeoman-generator > yeoman-environment > inquirer > lodash:
+        patched: '2019-07-04T00:59:26.711Z'
+    - yeoman-generator > yeoman-test > yeoman-generator > yeoman-environment > grouped-queue > lodash:
+        patched: '2019-07-04T00:59:26.711Z'
+    - yeoman-generator > yeoman-test > sinon > nise > @sinonjs/formatio > @sinonjs/samsam > lodash:
+        patched: '2019-07-04T00:59:26.711Z'
